@@ -19,7 +19,6 @@ export default class Home extends Component {
             {allImages.map((each, k) => (
               
               <li key={k}>
-                console.log("hellow")
                 <h2>{each.name}</h2>
                 <img src={each.image} alt="Cinque Terre" width="1000" height="300" />
                 <p>{each.description}</p>
